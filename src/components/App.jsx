@@ -1,9 +1,10 @@
 import React from 'react'
+import TaskForm from './tasks/taskForm/TaskForm';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <TaskForm />
     </div>
   )
 }
